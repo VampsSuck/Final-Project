@@ -1,0 +1,31 @@
+{
+    "My Book Reviews": [
+        {
+            "Title": "Babel, or the Necessity of Violence",
+            "Author(s)": "R.F. Kuang",
+            "Star Rating": "5 Stars",
+            "Genre(s)": "Historical Fantasy, Dark Fantasy",
+            "Likes": "The characters really came to life, I felt like I was in the action, I enjoyed the long prose and explainations at the bottom of the page.",
+            "Dislikes": "N/A. I loved the whole thing.",
+            "Final Thoughts": "A wonderful tradgey that ends on a hopeful note."
+        },
+        {
+            "Title": "The Short Second Life of Bree Tanner",
+            "Author(s)": "Stephanie Meyer",
+            "Star Rating": "4",
+            "Genre(s)": "YA, Fantasy, Horror",
+            "Likes": "Characters, plot, and world building",
+            "Dislikes": "Windind prose",
+            "Final Thoughts": "Loved it, in my opinion one of the best books of the Twilight saga"
+        },
+        {
+            "Title": "I Was Born For This",
+            "Author(s)": "Alice Oseman",
+            "Star Rating": "2",
+            "Genre(s)": "Fiction",
+            "Likes": "Jimmy Kaga-Ricci",
+            "Dislikes": "Practically Everything else, everyone but Jimmy fell flat and fake",
+            "Final Thoughts": "I likely never read this book again."
+        }
+    ]
+}
