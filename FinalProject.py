@@ -68,20 +68,18 @@ while i == 0:
 br_search = input("Would you like to search previous reviews? Yes/No: ")
 if br_search == "Yes":
      entry = input("What Book's Review Are You Looking For?(Answer With the Book's Exact Title as You Prevously Typed It.): ")
-     for i in range(3):
+     for i in range(100):
          if review['My Book Reviews'][i]['Title'] == entry:
-             print(review['My Book Reviews'][i])
-             ##Print Stuff 
-             
-             """
-             response_br_search = json.loads(entry.text)
-
-             previous = response_br_search['My Book Reviews'][0]
-             
-             for key, value in i:
-                 print(f"{key}: {value}")
-                 #print(key + ": " + value)
-            """
+             ##Below is a test print that was used to check that it would print properly
+             ## print(review['My Book Reviews'][i])
+             ##Prints The Selected Book Review "Prettily" lol 
+             print("Title: " + review['My Book Reviews'][i]['Title'])
+             print("Author(s): " + review['My Book Reviews'][i]['Author(s)'])
+             print("Star Rating: " + review['My Book Reviews'][i]['Star Rating'])
+             print("Genre(s): " + review['My Book Reviews'][i]['Genre(s)'])
+             print("Likes: " + review['My Book Reviews'][i]['Likes'])
+             print("Dislikes: " + review['My Book Reviews'][i]['Dislikes'])
+             print("Final Thoughts: " + review['My Book Reviews'][i]['Final Thoughts'])
 elif yn_ybr == "No":
      print("K. Byeee! :)")
      exit
@@ -89,5 +87,3 @@ else:
      #i did this for the lolz
      print("????")
      exit
-
-    
